@@ -1,4 +1,5 @@
 # Podcast Feed Generator
+> **NOTE**: This repository was created as a course project for the LinkedIn Learning course [Practical GitHub Actions](https://www.linkedin.com/learning/practical-github-actions/).
 
 A GitHub action to generate a podcast feed from a YAML file. YAML is much easier to read and write than XML, and this action will convert your YAML file into a valid podcast feed.
 ## Usage
@@ -47,6 +48,3 @@ jobs:
       - name: Run Feed Generator
         uses: 4N0NYM0U5MY7H/podcast_feed_generator@main
 ```
-
-## Created with
-* [![Static Badge](https://img.shields.io/badge/LinkedIn_Learning-informational?style=flat-square&logo=linkedin)](https://www.linkedin.com/learning/practical-github-actions/)
